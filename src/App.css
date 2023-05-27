@@ -229,7 +229,7 @@ nav.active .menu-toggle span:nth-of-type(3) {
 }
 
 .container>* {
-  max-width: 1111px;
+  max-width: 967px;
   margin: auto;
 }
 
@@ -279,7 +279,6 @@ nav.active .menu-toggle span:nth-of-type(3) {
   font-size: 16px;
   line-height: 150%;
   text-align: center;
-  text-decoration-line: line-through;
   color: #717272;
 }
 
@@ -341,6 +340,110 @@ section.banner {
 
 
 
+/* images slider  */
+.imgs-slider{
+  padding: 0 20px;
+}
+.imgs-slider>*{
+
+}
+.imgs-slider .react-multi-carousel-track::after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+top: 0;
+background: linear-gradient(180deg, #E5E5E5 0%, rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0) 100%);
+}
+.imgs-slider .react-multi-carousel-item .img{
+
+}
+.imgs-slider .react-multi-carousel-item img{
+  width: 100%;
+  
+}
+.imgs-slider .react-multiple-carousel__arrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  height: 33px;
+  background: #151B26;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2), 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  position: absolute;
+  
+  bottom: 30px;
+  min-width: auto;
+  min-height: auto;
+
+}
+.imgs-slider .react-multiple-carousel__arrow--left{
+  right: 50%;
+  left: auto;
+  transform: translateX(-150px);
+}
+
+.imgs-slider .react-multiple-carousel__arrow--right{
+  left: 50%;
+  right: auto;
+  transform: translateX(150px);
+}
+
+.imgs-slider  .react-multi-carousel-dot-list{
+
+}
+
+.imgs-slider  .react-multi-carousel-dot-list li{
+  width: 280px;
+  height: 33px;
+  background: #151B26;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2), 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 30px;
+transition: opacity 0.4s;
+}
+
+.imgs-slider  .react-multi-carousel-dot-list li.active{
+opacity: 1;
+}
+.imgs-slider  .react-multi-carousel-dot-list li.inactive{
+opacity: 0;
+}
+@media screen and (max-width: 767px) {
+  .imgs-slider .react-multi-carousel-item img{
+    height: 300px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imgs-slider  .react-multi-carousel-dot-list li{
+    width: 210px;
+    font-size: 12px;
+  }
+  .imgs-slider .react-multiple-carousel__arrow--left{
+    transform: translateX(-115px);
+  }
+  
+  .imgs-slider .react-multiple-carousel__arrow--right{
+    transform: translateX(115px);
+  }
+}
+
+
 /* logos list */
 .logos-list {
   display: flex;
@@ -349,6 +452,98 @@ section.banner {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+
+/* questions slider */
+.question-slider{
+  max-width: 718px;
+  height: 373px;
+  margin: auto;
+  background: #E9EAEB;
+border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
+border-radius: 48px;
+}
+.question-slider .question-box{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 55px 115px;
+
+max-width: 718px;
+height: 373px;
+
+}
+
+.question-slider .question-box span{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #717272;
+margin-bottom: 8px;
+}
+.question-slider .question-box h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  color: #151B26;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.question-slider .question-box button{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 6px 16px;
+gap: 10px;
+
+width: 100%;
+min-height: 55.5px;
+
+border: 1px solid #CACBCC;
+border-radius: 15px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: #000000;
+}
+.question-slider .question-box button:nth-last-of-type(1){
+  margin-top: 16px;
+}
+.question-slider .react-multiple-carousel__arrow--left:focus,
+.question-slider .react-multiple-carousel__arrow--left:active,
+.question-slider .react-multiple-carousel__arrow--left{
+  background: transparent;
+}
+.question-slider .react-multiple-carousel__arrow--left::before{
+
+  color: grey;
+}
+.question-slider .question-box-last{
+  background: #151B26;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.15);
+border-radius: 48px;
+}
+.question-slider .question-box-last>*{
+  color: white !important;
+}
+.question-slider .question-box-last button{
+  margin: 0;
+}
+.question-slider .question-box-last h3{
+
+}
+.question-slider .question-box-last .small-text{
+  margin-bottom: 0;
 }
 
 
