@@ -90,7 +90,7 @@ sliders.push(
 );
 
 sliders.push(
-  <div className="question-box question-box-last">
+  <div className=" question-box-last">
     <h3>Seems like StockAlgos is suitable to you. <br /> Would you like to give us a try? </h3>
     <button className="violet-fill-btn">
       Try at $0 for 7 days
@@ -113,9 +113,9 @@ const CustomRight = ({ onClick }) => {
   );
 };
 
-const Section3 = () => {
+const QuestionSlider = () => {
   return (
-    <section class="container">
+    <section class="container question">
       <div>
         <h2 class="subtitle">Find out if you’re interested</h2>
         <p class="small-text">
@@ -126,8 +126,8 @@ const Section3 = () => {
 
         <Carousel
           responsive={responsive}
-          swipeable={true}
-          draggable={true}
+          swipeable={false}
+          draggable={false}
           showDots={false}
           ssr={true} // means to render carousel on server-side.
           infinite={false}
@@ -148,4 +148,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default QuestionSlider;

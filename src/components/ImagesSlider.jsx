@@ -77,7 +77,7 @@ const CustomDot = ({ onMove, index, onClick, active }) => {
   );
 };
 
-const Section1 = () => {
+const ImagesSlider = () => {
   return (
     <section className=" imgs-slider">
       <div className="">
@@ -103,4 +103,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default ImagesSlider;

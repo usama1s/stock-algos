@@ -5,9 +5,9 @@ import barron from "../assets/images/barron.png";
 import UN from "../assets/images/us-news.png";
 import Kl from "../assets/images/kiplinger.png";
 
-const Section2 = () => {
+const FeaturedBrands = () => {
   return (
-    <section class="container ">
+    <section class="container logos">
       <div>
         <p class="small-text">As featured in</p>
         <div class="logos-list">
@@ -32,4 +32,4 @@ const Section2 = () => {
   );
 };
 
-export default Section2;
+export default FeaturedBrands;

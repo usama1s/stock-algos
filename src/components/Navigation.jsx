@@ -1,15 +1,19 @@
 import React from "react";
 import logo from "../assets/images/logo.png";
 
+const toggleMenu=()=> {
+  alert("fdas");
+}
+
 const Navigation = () => {
   return (
     <header>
-      <nav>
+      <nav id="nav">
         <a class="logo">
           <img src={logo} alt="nav-logo" />
         </a>
 
-        <button class="menu-toggle">
+        <button onClick={()=>document.getElementById("nav").classList.toggle("active")} class="menu-toggle">
           <span> </span>
           <span> </span>
           <span> </span>

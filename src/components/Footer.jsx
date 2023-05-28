@@ -8,29 +8,41 @@ import mail from "../assets/images/mail.png";
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <footer>
       <div className="footer-div">
         <p>Follow us on</p>
-        <img src={insta} alt="insta-icon" />
-        <img src={twitter} alt="twitter-icon" />
-        <img src={facebook} alt="fb-icon" />
-        <img src={linkedIn} alt="linkedIn-icon" />
-        <img src={tiktok} alt="ticktok-icon" />
+        <a>
+          <img src={insta} alt="insta-icon" />
+        </a>
+        <a>
+          <img src={twitter} alt="twitter-icon" />
+        </a>
+        <a>
+          <img src={facebook} alt="fb-icon" />
+        </a>
+        <a>
+          <img src={linkedIn} alt="linkedIn-icon" />
+        </a>
+        <a>
+          <img src={tiktok} alt="ticktok-icon" />
+        </a>
       </div>
-      <div className="footer-div">
+      <div className="footer-div footer-div2">
         <div className="footer-div">
           <img src={mail} alt="mail-icon" />
-          <p>admin@stockalgos.com</p>
+          <a href="mailto:admin@stockalgos.com">admin@stockalgos.com</a>
         </div>
-        <p>Give Feedback</p>
-        <p>Experts</p>
-        <p>Help & Support</p>
-        <p>Merch Store</p>
+        <div className="pages">
+        <a>Give Feedback</a>
+        <a>Experts</a>
+        <a>Help & Support</a>
+        <a>Merch Store</a>
+        </div>
       </div>
       <div>
         <p>© 2023 StockAlgos | Proudly Canadian</p>
       </div>
-    </section>
+    </footer>
   );
 };
 

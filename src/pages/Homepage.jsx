@@ -1,24 +1,24 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import Section1 from "../components/Section1";
-import Section2 from "../components/Section2";
-import Section3 from "../components/Section3";
+import ImagesSlider from "../components/ImagesSlider";
+import FeaturedBrands from "../components/FeaturedBrands";
+import QuestionSlider from "../components/QuestionSlider";
 import Offers from "../components/Offers";
-import Section4 from "../components/Section4";
-import Section5 from "../components/Section5";
+import TestimonialSlider from "../components/TestimonialSlider";
+import StarFeatures from "../components/StarFeatures";
 import Section6 from "../components/Section6";
 
 const Homepage = () => {
   return (
     <div>
       <Hero />
-      <Section1 />
-      <Section2 />
-      <Section3 />
+      <ImagesSlider />
+      <FeaturedBrands />
+      <QuestionSlider />
       <Offers />
-      <Section4 />
-      <Section5 />
+      <TestimonialSlider />
+      <StarFeatures />
       <Section6 />
       <Footer />
     </div>
