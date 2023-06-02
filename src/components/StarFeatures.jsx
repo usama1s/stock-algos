@@ -1,17 +1,19 @@
 import React from "react";
 import star1 from "../assets/images/star1.png";
 import star2 from "../assets/images/star2.png";
+import star from "../assets/images/star.png";
 
 const StarFeatures = () => {
   return (
     <section className="container">
       <div class="star-p">
-        <div class="top-h">
-          <span>🌟</span>
+        <div class="top-h mb-64">
+          <span><img src={star} className="star" /></span>
           <h2 className="title">Star Features</h2>
         </div>
+        <hr />
         <div>
-          <div class="coller-2">
+          <div class="coller-2 mb-64 mt-64">
             <div class="txt">
               <h2 className="sup-text">Signals</h2>
               <p className="text">
@@ -23,7 +25,8 @@ const StarFeatures = () => {
               <img src={star1} />
             </div>
           </div>
-          <div class="coller-2">
+          <hr />
+          <div class="coller-2 mt-64">
             <div class="img">
               <img src={star2} />
             </div>

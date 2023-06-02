@@ -7,7 +7,7 @@ const toggleMenu=()=> {
 
 const Navigation = () => {
   return (
-    <header>
+    <header className="header-m">
       <nav id="nav">
         <a class="logo">
           <img src={logo} alt="nav-logo" />

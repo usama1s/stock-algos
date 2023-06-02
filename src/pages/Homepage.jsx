@@ -8,10 +8,12 @@ import Offers from "../components/Offers";
 import TestimonialSlider from "../components/TestimonialSlider";
 import StarFeatures from "../components/StarFeatures";
 import Section6 from "../components/Section6";
+import Navigation from "../components/Navigation";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="body subscription-page">
+      <Navigation />
       <Hero />
       <ImagesSlider />
       <FeaturedBrands />
