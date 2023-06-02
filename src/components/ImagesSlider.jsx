@@ -80,15 +80,16 @@ const CustomDot = ({ onMove, index, onClick, active }) => {
 const ImagesSlider = () => {
   return (
     <section className=" imgs-slider">
-      <div className="">
+      <div className="radius">
         <Carousel
           responsive={responsive}
           swipeable={true}
           draggable={true}
           showDots={true}
+          autoPlay
           ssr={true} // means to render carousel on server-side.
           infinite={true}
-          autoPlaySpeed={1000}
+          autoPlaySpeed={3000}
           keyBoardControl={true}
           transitionDuration={500}
           containerClass="carousel-container"

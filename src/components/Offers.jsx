@@ -1,14 +1,14 @@
 import React from "react";
-import offer1 from "../assets/images/offer1.png";
-import offer2 from "../assets/images/offer2.png";
-import offer3 from "../assets/images/offer3.png";
+import offer1 from "../assets/images/offer1.svg";
+import offer2 from "../assets/images/offer2.svg";
+import offer3 from "../assets/images/offer3.svg";
 
 const Offers = () => {
   return (
     <section className="offers container">
       <div className="">
         <p className="offer-text">With StockAlgos Unlimited </p>
-        <h2 className="title">You will know what you don’t know</h2>
+        <h2 className="title mx-659">You will know what you don’t know</h2>
         <div className="offer-div">
           <div className="offer-sub-div">
             <p className="sup-text">
