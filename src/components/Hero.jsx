@@ -23,7 +23,7 @@ const Hero = () => {
           </span>
           StockAlgos Unlimited
         </p>
-        <h1 class="title">The smarter way to search for stocks.</h1>
+        <h1 class="title mx-659">The smarter way to search for stocks.</h1>
         <p class="text">
           Get access to tools and algorithms that help you find the best stocks
           to buy, sell, or hold. You can also get insights into how insiders,

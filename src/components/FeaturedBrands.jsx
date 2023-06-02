@@ -1,9 +1,9 @@
 import React from "react";
-import BI from "../assets/images/bussiness-insider.png";
-import II from "../assets/images/institutional-investor.png";
-import barron from "../assets/images/barron.png";
-import UN from "../assets/images/us-news.png";
-import Kl from "../assets/images/kiplinger.png";
+import BI from "../assets/images/logo5.png";
+import II from "../assets/images/logo4.png";
+import barron from "../assets/images/logo3.png";
+import UN from "../assets/images/logo2.png";
+import Kl from "../assets/images/logo1.png";
 
 const FeaturedBrands = () => {
   return (

@@ -29,9 +29,7 @@ const Navigation = () => {
               </div>
             </a>
           </li>
-          <li>
-            <a class="violet-btn"> Try at $0 for 7 days </a>
-          </li>
+         
         </ul>
       </nav>
     </header>

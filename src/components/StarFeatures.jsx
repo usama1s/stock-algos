@@ -1,6 +1,6 @@
 import React from "react";
-import star1 from "../assets/images/star1.png";
-import star2 from "../assets/images/star2.png";
+import star1 from "../assets/images/star1.svg";
+import star2 from "../assets/images/star2.svg";
 import star from "../assets/images/star.png";
 
 const StarFeatures = () => {
